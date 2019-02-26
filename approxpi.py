@@ -17,4 +17,6 @@ while abs(approx - math.pi) < ...:  # todo until the approx is good enough.
         k += 1
 
     approx = 4 * k / n
+
 print("..." + str(n))
+print("that's it")
